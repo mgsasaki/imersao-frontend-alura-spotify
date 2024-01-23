@@ -1,0 +1,111 @@
+body {
+  background-color: #000;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  padding: 12px;
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.sidebar__navigation {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.sidebar__navigation .logo {
+  background: #121212;
+  display: flex;
+  border-radius: 8px;
+  padding: 16px 0 0 16px;
+}
+
+.sidebar__navigation .logo img {
+  width: 80px;
+}
+
+.sidebar nav ul {
+  margin-top: 20px;
+  padding: 0 20px 10 20px;
+}
+
+.sidebar ul li {
+  padding: 10px 0px;
+}
+
+.sidebar nav ul li a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.sidebar__library {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar__library .header {
+  display: flex;
+  padding: 10px 0;
+}
+
+.sidebar__library .header .title {
+  display: flex;
+  margin-inline-end: auto;
+}
+
+.sidebar__library .header .title a {
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.sidebar__library .header button {
+  color: #b3b3b3;
+  background-color: #121212;
+  border: 0;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sidebar__library .suggestion-card {
+  background-color: #242424;
+  color: #fff;
+  border-radius: 8px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: sans-serif;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.sidebar__library .suggestion-card h1 {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sidebar__library .suggestion-card button {
+  height: 30px;
+  border: 0;
+  border-radius: 15px;
+  padding: 0 20px;
+  font-weight: 600;
+  margin-top: 5px;
+}
