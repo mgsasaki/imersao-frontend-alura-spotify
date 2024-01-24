@@ -133,29 +133,84 @@
 
 .main-content .categories .category img {
   position: absolute;
-  width: 50%;
-  height: 50%;
+  width: 60%;
+  height: 60%;
   bottom: 0;
   right: 0;
   transform: rotate(25deg) translate(18%, -2%);
 }
 
-.bg-green {
+.category.bg-holidays {
   color: #fff;
-  background-color: green;
+  background-color: rgb(0,100,80);
 }
 
-.bg-purple {
+.category.bg-made-for-you {
   color: #fff;
-  background-color: purple;
+  background-color: rgb(132,0,231);
 }
 
-.bg-blue {
+.category.bg-new-releases {
   color: #fff;
-  background-color: navy;
+  background-color: rgb(30,50,100);
 }
 
-.bg-red {
+.category.bg-creators {
   color: #fff;
-  background-color: red;
+  background-color: rgb(140,25,50);
+}
+
+.category.bg-workout {
+  color: #fff;
+  background-color: rgb(232,17,91);
+}
+
+.category.bg-podcasts {
+  color: #fff;
+  background-color: rgb(83,122,161);
+}
+
+.category.bg-sertanejo {
+  color: #fff;
+  background-color: rgb(142,102,172);
+}
+
+.category.bg-samba-pagode {
+  color: #fff;
+  background-color: rgb(20,138,8);
+}
+
+.category.bg-funk {
+  color: #fff;
+  background-color: rgb(30,50,100);
+}
+
+.category.bg-mpb {
+  color: #fff;
+  background-color: rgb(233,20,41);
+}
+
+.category.bg-rock {
+  color: #fff;
+  background-color: rgb(80,55,80);
+}
+
+.category.bg-hip-hop {
+  color: #fff;
+  background-color: rgb(216,64,0);
+}
+
+.category.bg-indie {
+  color: #fff;
+  background-color: rgb(186,93,7);
+}
+
+.category.bg-relax {
+  color: #fff;
+  background-color: rgb(0,30,80);
+}
+
+.category.bg-latin {
+  color: #fff;
+  background-color: rgb(60,30,80);
 }
