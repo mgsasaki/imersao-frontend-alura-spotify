@@ -7,6 +7,7 @@
     <title>Spotify Imersão</title>
     <link rel="stylesheet" href="./src/styles/reset.css" />
     <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/window.css">
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css" />
     <link rel="stylesheet" href="./src/styles/main-content.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" />
@@ -37,7 +38,8 @@
                     </li>
                 </ul>
             </nav>
-            <nav class="sidebar__library">
+
+            <div class="sidebar__library">
                 <div class="header">
                     <div class="title">
                         <a href="">
@@ -84,7 +86,7 @@
                         <span>Português do Brasil</span>
                     </button>
                 </div>
-            </nav>
+            </div>
         </div>
 
         <main>
@@ -113,14 +115,14 @@
             </div>
         </main>
 
-        <div class="footer">
+        <footer class="disclaimer-premium">
             <div class="text">
-                <p class="highlight">Testar o Premium de graça</p>
-                <p class="details">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não
+                <p class="disclaimer-premium__title">Testar o Premium de graça</p>
+                <p class="disclaimer-premium__subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não
                     precisa de cartão de crédito.</p>
             </div>
             <button>Inscreva-se grátis</button>
-        </div>
+        </footer>
     </div>
 </body>
 
