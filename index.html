@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersão</title>
+    <link rel="stylesheet" href="./src/styles/reset.css" />
+    <link rel="stylesheet" href="./src/styles/vars.css">
+    <link rel="stylesheet" href="./src/styles/sidebar-footer.css" />
+    <link rel="stylesheet" href="./src/styles/main-content.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -17,7 +19,7 @@
             <nav class="sidebar__navigation">
                 <div class="logo">
                     <a href="">
-                        <img src="./assets/icons/logo-spotify.png" alt="logo do spotify">
+                        <img src="./src/assets/icons/logo-spotify.png" alt="logo do spotify">
                     </a>
                 </div>
                 <ul>
@@ -84,6 +86,33 @@
                 </div>
             </nav>
         </div>
+
+        <main>
+            <div class="main-container">
+                <nav class="header">
+                    <div class="header__navigation">
+                        <button class="arrow-left">
+                            <img src="./src/assets/icons/small-left.png" alt="seta esquerda">
+                        </button>
+                        <button class="arrow-right">
+                            <img src="./src/assets/icons/small-right.png" alt="seta direita">
+                        </button>
+
+                        <div class="header__search">
+                            <img src="./src/assets/icons/search.png" alt="">
+                            <input type="text" name="search-input" id="search-input" maxlength="800"
+                                placeholder="O que você quer ouvir?" />
+                        </div>
+                    </div>
+
+                    <div class="header__login">
+                        <button class="subscribe">Inscreva-se</button>
+                        <button class="login">Entrar</button>
+                    </div>
+                </nav>
+            </div>
+        </main>
+
         <div class="footer">
             <div class="text">
                 <p class="highlight">Testar o Premium de graça</p>

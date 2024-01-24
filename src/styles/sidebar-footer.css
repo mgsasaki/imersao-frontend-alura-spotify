@@ -1,7 +1,7 @@
 body {
   background-color: #000;
+  font-family: var(--font-dm-sans);
   color: #fff;
-  font-family: "DM Sans", sans-serif;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -62,7 +62,6 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .sidebar__library {
@@ -90,7 +89,6 @@ body {
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
-  font-family: "DM Sans", sans-serif;
 }
 
 .sidebar__library .header button {
@@ -110,7 +108,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  font-family: sans-serif;
   font-size: 12px;
   margin-bottom: 12px;
 }
@@ -138,7 +135,6 @@ body {
   color: #b3b3b3;
   text-decoration: none;
   text-transform: none;
-  font-family: "DM Sans", sans-serif;
   font-size: 12px;
 }
 
