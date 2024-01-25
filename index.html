@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./src/styles/window.css">
     <link rel="stylesheet" href="./src/styles/sidebar-footer.css" />
     <link rel="stylesheet" href="./src/styles/main-content.css">
+    <link rel="stylesheet" href="./src/styles/media-queries.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" />
 </head>
@@ -99,12 +100,12 @@
                         <button class="arrow-right">
                             <img src="./src/assets/icons/small-right.png" alt="seta direita">
                         </button>
+                    </div>
 
-                        <div class="header__search">
-                            <img src="./src/assets/icons/search.png" alt="">
-                            <input type="text" name="search-input" id="search-input" maxlength="800"
-                                placeholder="O que você quer ouvir?" />
-                        </div>
+                    <div class="header__search">
+                        <img src="./src/assets/icons/search.png" alt="">
+                        <input type="text" name="search-input" id="search-input" maxlength="800"
+                            placeholder="O que você quer ouvir?" />
                     </div>
 
                     <div class="header__login">
@@ -112,10 +113,30 @@
                         <button class="login">Entrar</button>
                     </div>
                 </nav>
-                <div class="main-content">
+
+                <div id="result-artist" class="hidden">
+                    <div class="grid-container">
+                        <div class="artist-card" id="">
+                            <div class="card-img">
+                                <img id="artist-img" class="artist-img" />
+                                <div class="play">
+                                    <span class="fa fa-solid fa-play"></span>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                <a title="Foo Fighters" class="vst" href=""></a>
+                                <span class="artist-name" id="artist-name"></span>
+                                <span class="artist-categorie">Artista</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="main-content" id="result-playlists">
                     <h1 class="greetings">Boa tarde</h1>
                     <section class="categories-navigation">
-                        <div class="title">Navegar por todas as seções</div>
+                        <h2 class="title">Navegar por todas as seções</h2>
                         <div class="categories">
                             <div class="category bg-holidays">
                                 <span class="category__title">Boas festas</span>
@@ -186,12 +207,16 @@
         <footer class="disclaimer-premium">
             <div class="text">
                 <p class="disclaimer-premium__title">Testar o Premium de graça</p>
-                <p class="disclaimer-premium__subtitle">Inscreva-se para curtir música ilimitada e podcasts só com alguns anúncios. Não
+                <p class="disclaimer-premium__subtitle">Inscreva-se para curtir música ilimitada e podcasts só com
+                    alguns anúncios. Não
                     precisa de cartão de crédito.</p>
             </div>
             <button>Inscreva-se grátis</button>
         </footer>
     </div>
+
+    <script type="text/javascript" src="./script.js"></script>
+
 </body>
 
 </html>

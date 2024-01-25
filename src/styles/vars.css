@@ -7,4 +7,15 @@
     --bg-window: #000;
     --bg-icon: #131313;
     --bg-arrow-color: rgba(0,0,0,0.7);
+
+    --grid-gap: 24px;
+    --column-count: 5;
+    --screen-height: 800px;
+}
+
+/* MEDIA QUERYS */
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1274px) {
 }
