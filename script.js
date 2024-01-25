@@ -10,17 +10,11 @@ function requestApi(searchTerm) {
 }
 
 function displayResults(result) {
-  console.log(result);
-
   resultPlaylist.classList.add('hidden');
   const artistsContainer = resultArtist.querySelector('.grid-container');
-  // const artistName = document.getElementById('artist-name');
-  // const artistImage = document.getElementById('artist-img');
 
   let newInnerHTML = "";
   result.forEach((element) => {
-    // artistName.innerText = element.name;
-    // artistImage.src = element.urlImg;
     newInnerHTML = newInnerHTML.concat(`
 <div class="artist-card" id="${element.id}">
     <div class="card-img">

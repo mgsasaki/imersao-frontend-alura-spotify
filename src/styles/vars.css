@@ -6,11 +6,13 @@
     --fg-color: #fff;
     --bg-window: #000;
     --bg-icon: #131313;
-    --bg-arrow-color: rgba(0,0,0,0.7);
+    --bg-arrow-color: rgba(0, 0, 0, 0.7);
 
     --grid-gap: 24px;
     --column-count: 5;
-    --screen-height: 800px;
+    --column-count-md: 3;
+    --column-count-sm: 2;
+    --min-container-width: 372px;
 }
 
 /* MEDIA QUERYS */
